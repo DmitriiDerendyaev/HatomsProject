@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/raiting"
+        android:icon="@drawable/outline_rate_24"
+        android:title="Рейтинг" />
+
+    <item
+        android:id="@+id/levels"
+        android:icon="@drawable/baseline_auto_awesome_24"
+        android:title="Задачи" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Профиль" />
+
+</menu>

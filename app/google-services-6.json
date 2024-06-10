@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159132818325",
+    "project_id": "tinkoff-math",
+    "storage_bucket": "tinkoff-math.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159132818325:android:6fa2a7d1b7154507aa749c",
+        "android_client_info": {
+          "package_name": "com.example.math_tinkoff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3kscl2z-3vfTU2nKIBNfA4t2ZMCj9kKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "51159155310",
+    "firebase_url": "https://tink-math-default-rtdb.firebaseio.com",
+    "project_id": "tink-math",
+    "storage_bucket": "tink-math.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51159155310:android:d047617aa83a9f30bb9c7f",
+        "android_client_info": {
+          "package_name": "com.example.tinkhatoms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpxpGQxtwfyt3NsIYgACJe9PGIpfxk76k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

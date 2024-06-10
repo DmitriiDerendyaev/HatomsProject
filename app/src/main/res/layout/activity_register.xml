@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/register_up" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-170dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/register_down" />
+
+    <ImageButton
+        android:id="@+id/nextBtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/next_btn" />
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="175dp"
+        android:backgroundTint="@android:color/transparent"
+        android:ems="10"
+        android:hint="Введите email:"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@android:color/transparent"
+        android:ems="10"
+        android:hint="Введите пароль:"
+        android:inputType="text|textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEt" />
+
+    <EditText
+        android:id="@+id/loginEt"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="-20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:ems="10"
+        android:hint="Введите логин:"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEt" />
+
+    <Button
+        android:id="@+id/btn_swipe"
+        android:layout_width="304dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/emailEt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
